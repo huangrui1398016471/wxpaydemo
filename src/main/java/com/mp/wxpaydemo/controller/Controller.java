@@ -21,8 +21,8 @@ import java.util.Map;
 @RequestMapping("/wxpay")
 public class Controller {
     //  小程序信息  不能是测试号
-    private String appid = "wx31cfa980dbca0204";
-    private String openId = "obBJP5agbqQH6m7IKynR5YClegHs";
+    private String appid = Constant.APP_ID;
+    private String openId = "openID需要自己登陆获取";
 
     /**
      * 功能描述: <br>
